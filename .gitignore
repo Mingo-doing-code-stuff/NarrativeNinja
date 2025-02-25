@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Dist folder (build output)
+dist/
+!.gitkeep
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Trash files
+.Trashes
+**/.Spotlight-V100
+**/.fseventsd
+
+# Linting cache
+.eslintcache
+
+# Build artifacts
+/.output
+
+# TypeScript & Vue related caches
+tsconfig.tsbuildinfo
+
+# Coverage reports
+/coverage
+/coverage-final.json
+/nyc_output
+
+# Cypress & Playwright (End-to-End testing)
+cypress/screenshots/
+cypress/videos/
+.playwright/
+
+# Other
+.DS_Store
+Thumbs.db
